@@ -126,8 +126,9 @@ body{background: #fff;}
 .main-about .tabJob, .main-about .tabCour{display: none;}
 /*公司简介*/
 .main-about .tabIntro{padding-bottom: 15px;}
-.main-about .tabIntro .content{vertical-align: middle;}
+.main-about .tabIntro .content{vertical-align: middle;clear: both}
 .main-about .tabIntro .content .img{width: 50%;}
+.main-about .tabIntro .content .layui-inline{float: left!important;}
 .main-about .tabIntro .content .img img{width: 100%;}
 .main-about .tabIntro .content .panel{width: 50%;}
 .main-about .tabIntro .content p{padding: 0 20px; line-height: 24px; text-align: justify;}
